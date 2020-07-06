@@ -6,8 +6,9 @@ This app allows to import given tags.csv, calculate tree value, move subtree and
 1. Clone repository
 2. Make a .env file from .env.example
 3. In .env fill credentials (DB name in DB_DATABASE) to empty database
-4. Run php artisan key:generate
-5. Run php artisan migrate
+4. Run composer install
+5. Run php artisan key:generate
+6. Run php artisan migrate
 
 
 ### How to use
